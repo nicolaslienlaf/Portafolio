@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.boton{
+    background-color: red;
+    color: rgb(0,0,0);
+    padding: 12px, 24px; 
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.boton :hover{
+background-color: green;
+}
